@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		593843B32EAB82CD00EF69CB /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 593843B22EAB82CD00EF69CB /* RiveRuntime */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		59F6B1332EAA0B160022162A /* SplitMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -27,7 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				593843B32EAB82CD00EF69CB /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +65,6 @@
 			);
 			name = SplitMate;
 			packageProductDependencies = (
-				593843B22EAB82CD00EF69CB /* RiveRuntime */,
 			);
 			productName = SplitMate;
 			productReference = 59F6B1332EAA0B160022162A /* SplitMate.app */;
@@ -101,7 +95,6 @@
 			mainGroup = 59F6B12A2EAA0B160022162A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				593843B12EAB82CD00EF69CB /* XCRemoteSwiftPackageReference "rive-ios" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 59F6B1342EAA0B160022162A /* Products */;
@@ -341,25 +334,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		593843B12EAB82CD00EF69CB /* XCRemoteSwiftPackageReference "rive-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rive-app/rive-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.12.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		593843B22EAB82CD00EF69CB /* RiveRuntime */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 593843B12EAB82CD00EF69CB /* XCRemoteSwiftPackageReference "rive-ios" */;
-			productName = RiveRuntime;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 59F6B12B2EAA0B160022162A /* Project object */;
 }
